@@ -8,6 +8,8 @@ A deep learning-powered web application for automated brain tumor detection and 
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+- **Live Demo**: [Streamlit App](https://brain-iccit-mryummflnwm76tphvrajyg.streamlit.app/)
+## Read the instraction properly to run this app
 
 ## 📋 Table of Contents
 
