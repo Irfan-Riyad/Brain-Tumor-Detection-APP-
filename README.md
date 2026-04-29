@@ -116,15 +116,11 @@ pip install -r requirements.txt
 The application requires a pre-trained CNN model for inference. Follow these steps:
 
 1. **Download the model file** from [this Google Drive link](https://drive.google.com/drive/u/0/folders/1y9bTLNtT64yyx2d4Kj57KI7zuhbXCwdo)
-   - Look for the model file (typically `.h5` or `.pkl` format)
+   - Look for the model file (typically  `.pht` format)
    - Download it to your computer
 
-2. **Create the models directory** (if it doesn't exist)
-   ```bash
-   mkdir -p models
-   ```
 
-3. **Place the model in the correct location**
+2. **Place the model in the correct location**
    ```
    Brain-Tumor-Detection-APP-/
    ├── models/
@@ -145,8 +141,7 @@ The `classes.txt` file contains the list of tumor classifications that the model
    Brain-Tumor-Detection-APP-/
    ├── classes.txt  (Place downloaded file here)
    ├── models/
-   ├── app.py
-   └── README.md
+
    ```
 
 3. **Verify the classes file contains your tumor classifications**
@@ -155,6 +150,9 @@ The `classes.txt` file contains the list of tumor classifications that the model
    Meningioma
    Pituitary
    No Tumor
+   .
+   .
+   .
    ```
 
 ### Step 3: Upload Classes in the App
